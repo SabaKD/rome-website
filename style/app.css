@@ -55,5 +55,12 @@ header h2{
     header h2 {
         font-size: 20px;
     }
+    .primaryButton {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        padding: 12px 24px;
+    }
+    
     
 }
