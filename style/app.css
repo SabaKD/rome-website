@@ -152,6 +152,13 @@ section img{
     font-weight: 400;
     color: var(--primary-color);
 }
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+.cardheader.grid {
+    grid-gap: 0;
+}
 .subsection{
     margin: 24px 0;
 }
@@ -199,6 +206,12 @@ section img{
     section img{
         max-width: 350px;
         margin: 0 auto;
+    }
+    .cardheader img{
+        display: none;
+    }
+    .embed{
+        aspect-ratio: 16/9;
     }
     
     
